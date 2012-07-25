@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="library_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+            <state line="45" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="0.81781375">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dictionary.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="323" selection-end="323" vertical-scroll-proportion="0.27327934">
+            <state line="9" column="49" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,11 +103,11 @@
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words.rb" />
-        <option value="$PROJECT_DIR$/spec/library_spec.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/library.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/core.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/eng.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb" />
+        <option value="$PROJECT_DIR$/spec/library_spec.rb" />
       </list>
     </option>
   </component>
@@ -634,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/numbers_to_words.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="28" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
@@ -671,7 +664,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="323" selection-end="323" vertical-scroll-proportion="0.27327934">
+        <state line="9" column="49" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="0.81781375">
           <folding />
         </state>
       </provider>
