@@ -1,12 +1,19 @@
 module Cacique
   module NumbersToWords
-    module Library
-      def self.convert(number)
+    class Library
+
+      def initialize(lang)
+        @lang = lang
+        @dictionary = Dictionary.new(lang)
+      end
+
+      def convert(number)
         all_words = []
         each_triplet(number) do |triplet, index|
           words = ""
+          options = {}
           as_string = triplet.to_s
-          words << " "<< cent(as_string, index) << " "<< dec(as_string, index) << " "<< unit(as_string, index)
+          words << " "<< cent(as_string, options) << " "<< dec(as_string,options) << " "<< unit(as_string, index, options)
           words.strip!
           all_words << words
         end
@@ -19,25 +26,25 @@ module Cacique
 
       private
 
-      def self.cent(triplet_string, index)
+      def cent(triplet_string, options)
         return '' if triplet_string.size < 3
-        Dictionary.resolve_cent(triplet_string)
+        @dictionary.resolve_cent(triplet_string, options)
       end
 
-      def self.dec(triplet_string, index)
+      def dec(triplet_string, options)
         return '' if triplet_string.size < 2
-        return Dictionary.resolve_dec(triplet_string[1]+triplet_string[2]) if triplet_string.size == 3
-        return Dictionary.resolve_dec(triplet_string[0]+triplet_string[1]) if triplet_string.size == 2
+        return @dictionary.resolve_dec(triplet_string[1]+triplet_string[2], options) if triplet_string.size == 3
+        return @dictionary.resolve_dec(triplet_string[0]+triplet_string[1], options) if triplet_string.size == 2
       end
 
-      def self.unit(triplet_string, index)
+      def unit(triplet_string, index,options)
         return '' if triplet_string.size < 1
-        return Dictionary.resolve_unit(triplet_string[2], index) if triplet_string.size == 3
-        return Dictionary.resolve_unit(triplet_string[1], index) if triplet_string.size == 2
-        return Dictionary.resolve_unit(triplet_string[0], index) if triplet_string.size == 1
+        return @dictionary.resolve_unit(triplet_string[2], index, options) if triplet_string.size == 3
+        return @dictionary.resolve_unit(triplet_string[1], index, options) if triplet_string.size == 2
+        return @dictionary.resolve_unit(triplet_string[0], index, options) if triplet_string.size == 1
       end
 
-      def self.each_triplet(number)
+      def each_triplet(number)
         as_int = number.to_i
         index = 0
         begin
