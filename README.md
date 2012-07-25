@@ -1,4 +1,4 @@
-money_number_to_words
+number_to_words
 =====================
 
-Convert money number quantities to words.
+Convert number quantities to words.
