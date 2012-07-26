@@ -25,9 +25,12 @@ module Cacique
       end
 
       def resolve_unit(number, index, options)
-        return '' if options[:fully_resolved]
+        index = index.to_s
+        return '' if options[:fully_resolved] and @indices[index].nil?
+        return '' + @indices[index] if options[:fully_resolved]
         number_word = @numbers_unit[number].respond_to?(:call) ? @numbers_unit[number].call(options) : @numbers_unit[number]
         return number_word if @indices[index].nil?
+        return number_word+" "+@indices[number+"#"+index] if @indices[number+"#"+index]
         return number_word+" "+@indices[index]
       end
     end
