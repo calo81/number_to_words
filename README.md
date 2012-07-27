@@ -25,7 +25,7 @@ For spanish you would use
 
 Here is some irb output
 
-1.9.2-p290 :001 > require 'numbers_to_words'
+1.9.2-p290 :001 > require 'numbers_to_words' 
 
  => true
  
