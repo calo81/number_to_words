@@ -25,10 +25,13 @@ For spanish you would use
 
 Here is some irb output
 
-1.9.2-p290 :001 > require 'numbers_to_words' \n
- => true\n
-1.9.2-p290 :002 > Cacique::NumbersToWords.init\n
- => Fixnum\n
+1.9.2-p290 :001 > require 'numbers_to_words'
+
+ => true
+ 
+1.9.2-p290 :002 > Cacique::NumbersToWords.init
+
+ => Fixnum
 1.9.2-p290 :003 > 12.in_english
  => "twelve"
 1.9.2-p290 :004 > 1_234_122.in_english
