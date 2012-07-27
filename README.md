@@ -23,7 +23,7 @@ For spanish you would use
 
 
 
-Here is some irb output<br/>
+Here is some irb output
 
 1.9.2-p290 :001 > require 'numbers_to_words' 
 
@@ -32,10 +32,17 @@ Here is some irb output<br/>
 1.9.2-p290 :002 > Cacique::NumbersToWords.init
 
  => Fixnum
+ 
 1.9.2-p290 :003 > 12.in_english
+
  => "twelve"
+ 
 1.9.2-p290 :004 > 1_234_122.in_english
+
  => "one million two hundred thirty four thousand one hundred twenty two"
+ 
 1.9.2-p290 :005 > 999999.in_english
+
  => "nine hundred ninety nine thousand nine hundred ninety nine"
+ 
 1.9.2-p290 :006 >
