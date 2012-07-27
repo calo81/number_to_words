@@ -43,6 +43,10 @@ describe Cacique::NumbersToWords do
     it "should convert 70" do
       70.in_english.should == 'seventy'
     end
+
+    it "should convert 717" do
+          717.in_english.should == 'seven hundred seventeen'
+        end
   end
 
   describe "In spanish" do
@@ -76,6 +80,22 @@ describe Cacique::NumbersToWords do
 
     it "should convert 2_134_220_121" do
       2_134_220_121.in_spanish.should == "dos mil millones ciento treinta y cuatro millones doscientos veinte mil ciento veintiuno"
+    end
+
+    it "should convert 16" do
+      16.in_spanish.should == "dieciseis"
+    end
+  end
+
+  describe "Two languages at the same time" do
+    before(:each) do
+      Cacique::NumbersToWords.init(:spanish)
+      Cacique::NumbersToWords.init(:english)
+    end
+
+    it "should convert 16" do
+          16.in_spanish.should == "dieciseis"
+          16.in_english.should == "sixteen"
     end
   end
 end

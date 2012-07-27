@@ -13,7 +13,7 @@ module Cacique
           words = ""
           options = {:index => index, :whole_number=>number}
           as_string = triplet.to_s
-          words << " "<< cent(as_string, options) << " "<< dec(as_string,options) << " "<< unit(as_string, index, options)
+          words <<  cent(as_string, options) <<  dec(as_string,options) <<  unit(as_string, index, options)
           words.strip!
           all_words << words
         end

@@ -19,46 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+            <state line="5" column="8" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.3636364">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <file leaf-file-name="english.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/english.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="11" selection-start="50" selection-end="50" vertical-scroll-proportion="-2.0215828">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="numbers_to_words.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/core.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+            <state line="44" column="24" selection-start="1514" selection-end="1514" vertical-scroll-proportion="1.3360324">
               <folding />
             </state>
           </provider>
@@ -67,34 +40,7 @@
       <file leaf-file-name="spanish.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/spanish.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="88" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/library.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="59" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="english.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/english.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="19" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+            <state line="50" column="28" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,11 +60,11 @@
         <option value="$PROJECT_DIR$/lib/numbers_to_words.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/eng.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/core.rb" />
-        <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/library.rb" />
-        <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/spanish.rb" />
         <option value="$PROJECT_DIR$/spec/library_spec.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/english.rb" />
+        <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/spanish.rb" />
+        <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb" />
       </list>
     </option>
   </component>
@@ -168,20 +114,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="numbers_to_words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numbers_to_words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numbers_to_words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -624,13 +556,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -645,44 +570,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="21" selection-start="0" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/core.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/library.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="59" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/spanish.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="88" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/english.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="50" selection-end="50" vertical-scroll-proportion="-2.0215828">
+        <state line="97" column="42" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-6.7636366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/library.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.3636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/spanish.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="28" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionaries/english.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="24" selection-start="1514" selection-end="1514" vertical-scroll-proportion="1.3360324">
           <folding />
         </state>
       </provider>
