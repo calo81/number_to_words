@@ -23,7 +23,7 @@ For spanish you would use
 
 
 
-Here is some irb output
+Here is some irb output<br/>
 
 1.9.2-p290 :001 > require 'numbers_to_words' 
 
