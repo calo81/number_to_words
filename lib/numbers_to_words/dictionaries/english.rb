@@ -38,7 +38,8 @@ module Cacique
                         '7' => 'seventy ',
                         '8' => 'eighty ',
                         '9' => 'ninety ',
-                        '2' => 'twenty '}
+                        '2' => 'twenty ',
+                        '0' => ''}
     end
 
     def numbers_cent
@@ -50,7 +51,8 @@ module Cacique
                          '7' => 'seven hundred ',
                          '8' => 'eight hundred ',
                          '9' => 'nine hundred ',
-                         '2' => 'two hundred '}
+                         '2' => 'two hundred ',
+                         '0' => ''}
     end
   end
 end

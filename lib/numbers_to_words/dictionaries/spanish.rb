@@ -35,7 +35,8 @@ module Cacique
        '6' => 'sesenta y ',
        '7' => 'setenta y ',
        '8' => 'ochenta y ',
-       '9' => 'noventa y '}
+       '9' => 'noventa y ',
+       '0'=>''}
     end
 
     def numbers_cent
@@ -48,7 +49,8 @@ module Cacique
        '6' => 'seiscientos ',
        '7' => 'setecientos ',
        '8' => 'ochocientos ',
-       '9' => 'novecientos '}
+       '9' => 'novecientos ',
+       '0'=>''}
     end
   end
 end

@@ -46,7 +46,11 @@ describe Cacique::NumbersToWords do
 
     it "should convert 717" do
           717.in_english.should == 'seven hundred seventeen'
-        end
+    end
+
+    it "should convert 1200" do
+              1200.in_english.should == 'one thousand two hundred'
+    end
   end
 
   describe "In spanish" do
