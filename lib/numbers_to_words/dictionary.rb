@@ -3,11 +3,11 @@ module Cacique
     class Dictionary
 
       def initialize(lang)
-        require_relative "dictionaries/#{lang}"
         load_lang_translations(lang)
       end
 
       def load_lang_translations(lang)
+        require_relative "dictionaries/#{lang}"
         extend Cacique.module_eval("#{lang.capitalize}Translations")
       end
 

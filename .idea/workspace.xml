@@ -22,7 +22,7 @@
       <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="-2.2">
+            <state line="9" column="47" selection-start="222" selection-end="222" vertical-scroll-proportion="-2.4545455">
               <folding />
             </state>
           </provider>
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="191" selection-end="219" vertical-scroll-proportion="0.28601694">
+            <state line="12" column="48" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="library_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="21" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+            <state line="2" column="11" selection-start="50" selection-end="50" vertical-scroll-proportion="0.06355932">
               <folding />
             </state>
           </provider>
@@ -91,6 +91,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="core.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/core.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -106,12 +115,12 @@
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/eng.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/core.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/library.rb" />
-        <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb" />
         <option value="$PROJECT_DIR$/numbers_to_words.gemspec" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/spec/library_spec.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/english.rb" />
         <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionaries/spanish.rb" />
+        <option value="$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb" />
       </list>
     </option>
   </component>
@@ -246,7 +255,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Cacique::NumbersToWords In english should convert 1200">
+  <component name="RunManager" selected="RSpec.library_spec">
     <configuration default="false" name="Cacique::NumbersToWords In english should convert 1142" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="numbers_to_words" />
@@ -349,40 +358,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="library_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="numbers_to_words" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/library_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Cacique::NumbersToWords In english should convert 1200" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="numbers_to_words" />
@@ -414,6 +389,38 @@
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="library_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="numbers_to_words" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/library_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -524,16 +531,16 @@
       <item index="0" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In english should convert 1142" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In spanish should convert 45" />
       <item index="2" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In spanish should convert 1_220_121" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.library_spec" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In english should convert 1200" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In english should convert 1200" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.library_spec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In english should convert 1200" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.library_spec" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.library_spec" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In english should convert 1200" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.library_spec" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In spanish should convert 1_220_121" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.library_spec" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.library_spec" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Cacique::NumbersToWords In spanish should convert 1_220_121" />
       </list>
     </recent_temporary>
   </component>
@@ -646,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/core.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/numbers_to_words.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="33" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
@@ -674,16 +674,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="-2.2">
+        <state line="12" column="48" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -702,9 +695,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/core.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="191" selection-end="219" vertical-scroll-proportion="0.28601694">
+        <state line="27" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/numbers_to_words/dictionary.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="47" selection-start="222" selection-end="222" vertical-scroll-proportion="-2.4545455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/library_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="50" selection-end="50" vertical-scroll-proportion="0.06355932">
           <folding />
         </state>
       </provider>
